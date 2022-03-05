@@ -5,19 +5,21 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: url("../img/foto-apresentacao.jpg") no-repeat;
+    background: url("../img/foto-apresentacao.png") no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
     line-height: 1.25;
 }
 
 #apresentacao > .titulo {
+    padding: 0 30px;
     font-size: 60px;
     text-transform: uppercase;
     font-family: "Anton";
     font-style: italic;
     color: #ffffff;
-    text-shadow: 0 0 50px rgb(70, 70, 70);
+    text-shadow: 0 0 2px rgb(155, 155, 155);
 }
 
 #apresentacao > .subtitulo {
@@ -25,6 +27,6 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
-    background-color: #ffe34f;
+    background-color: #fcd855;
     padding: 15px 35px;
 }
