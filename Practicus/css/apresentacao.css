@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: url("../img/foto-apresentacao.png") no-repeat;
+    background: url("../img/foto-apresentacao.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -27,6 +27,6 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
-    background-color: #fcd855;
+    background-color: #ffe34f;
     padding: 15px 35px;
 }
