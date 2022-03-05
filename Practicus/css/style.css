@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Jura Bold";
+    src: url("../fonts/Jura-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url("../fonts/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: "HK Grotesk Medium";
+    src: url("../fonts/hk-grotesk.medium.ttf");
+}
+
+body {
+    font-family: "Jura Bold", Helvetica, sans-serif;
+}
