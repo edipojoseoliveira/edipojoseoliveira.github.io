@@ -20,6 +20,7 @@
     font-style: italic;
     color: #ffffff;
     text-shadow: 0 0 2px rgb(155, 155, 155);
+    user-select: none;
 }
 
 #apresentacao > .subtitulo {
@@ -29,4 +30,11 @@
     font-weight: bold;
     background-color: #ffe34f;
     padding: 15px 35px;
+    user-select: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #apresentacao > .titulo {
+        padding-top: 125px;
+    }
 }
