@@ -1,0 +1,125 @@
+#quem-somos {
+    box-sizing: border-box;
+    background-color: #152039;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#quem-somos .texto {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#quem-somos .video {
+    align-self: flex-start;
+}
+
+#quem-somos .foto {
+    align-self: flex-end;
+}
+
+.Fs50 {
+    font-size: 60px;
+}
+
+.Fs45 {
+    font-size: 54px;
+}
+
+.Fs35 {
+    font-size: 42px;
+}
+
+.Fs20 {
+    font-size: 24px;
+}
+
+.Fs16 {
+    font-size: 19.2px;
+}
+
+.color-laranja {
+    color: #ff6341;
+}
+
+.color-amarela {
+    color: #ffe34f;
+}
+
+.color-branca {
+    color: #ffffff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.sombra-laranja {
+    text-shadow: 0 0 10px #ff6341;
+}
+
+.font-anton {
+    font-family: 'Anton';
+    font-weight: normal;
+}
+
+.font-hk-grotesk-medium {
+    font-family: 'HK Grotesk Medium';
+    font-weight: bold;
+}
+
+.font-majesty {
+    font-family: 'Majesty';
+}
+
+.midia {
+    display: flex;
+    height: 100%;
+}
+
+.video video {
+    margin: 50px 0 0 0;
+    width: 230px;
+    border-radius: 30px;
+}
+
+.foto img {
+    margin: 0 0 50px 0;
+    width: 350px;
+}
+
+@media only screen and (max-width: 600px) {
+    #quem-somos {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #quem-somos > * {
+        box-sizing: border-box;
+    }
+
+    .texto {
+        padding: 10px;
+    }
+
+    .midia {
+        margin-top: 20px;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #quem-somos .video, #quem-somos .foto {
+        align-self: center;
+    }
+
+    .video video, .foto img {
+        margin: 0;
+    }
+}

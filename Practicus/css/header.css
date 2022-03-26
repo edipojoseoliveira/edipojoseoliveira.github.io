@@ -5,6 +5,7 @@ header {
     background-color: #ffde59;
     color: #ffffff;
     align-items: center;
+    user-select: none;
 }
 
 header .brand {

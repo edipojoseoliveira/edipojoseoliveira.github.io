@@ -13,6 +13,11 @@
     src: url("../fonts/hk-grotesk.medium.ttf");
 }
 
+@font-face {
+    font-family: "Majesty";
+    src: url("../fonts/Majesty-Regular.ttf");
+}
+
 body {
     font-family: "Jura Bold", Helvetica, sans-serif;
 }
